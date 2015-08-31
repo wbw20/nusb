@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Pure javascript usb utility.",
   "dependencies": {
-    "minimist": "^1.2.0",
-    "underscore": "^1.8.3"
+    "glob": "^5.0.14"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +14,6 @@
     "CLI"
   ],
   "main": "lib/nusb.js",
-  "preferGlobal": "true",
-  "bin": {
-    "nino": "lib/nusb.js"
-  },
   "engines": {
     "node": ">= 0.8.0"
   },
